@@ -1,6 +1,6 @@
 FROM ubuntu:latest
 
-ARG hostname="10.43.78.49"
+ARG hostname="mysql.default.svc.cluster.local."
 ARG port=3306
 
 ENV HOSTNAME=${hostname}
